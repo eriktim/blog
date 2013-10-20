@@ -1,4 +1,4 @@
-blog
-====
+# server-s / blog
 
-Development blog
+_developer blog_
+

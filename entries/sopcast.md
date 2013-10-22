@@ -40,11 +40,11 @@ this can be fixed by running
 
 Run Sopcast
 
-    sp-sc-auth sop://broker.sopcast.com:3912/<channel> 3908 8908 > /dev/null
+    $ sp-sc-auth sop://broker.sopcast.com:3912/<channel> 3908 8908 > /dev/null
 
 View the Sopcast stream with VLC
 
-    vlc http://localhost:8908/tv.asf > /dev/null
+    $ vlc http://localhost:8908/tv.asf > /dev/null
 
 ## References
 

@@ -35,7 +35,8 @@ Disable Yubikey for local network access
 >     + : ALL : LOCAL
 >     - : ALL : ALL
 
-Configure PAM to use the Yubikey for SSH
+Configure PAM to use the Yubikey for SSH.
+The API key and id can be generated on <https://upgrade.yubico.com/getapikey/>.
 
     # vim /etc/pam.d/sshd
 

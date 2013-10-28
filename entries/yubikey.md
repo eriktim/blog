@@ -43,11 +43,15 @@ The API key and id can be generated on <https://upgrade.yubico.com/getapikey/>.
 >     # PAM configuration for the Secure Shell service
 >     auth [success=1 default=ignore] pam_access.so accessfile=/etc/security/access-local.conf
 >     auth required pam_yubico.so authfile=/etc/yubikey id=<yubikey-api-id> key=<yubikey-api-key>
+>     
+>     [...]
 
 Configure the SSH daemon to use PAM
 
     # vim /etc/ssh/sshd_config
 
+>     [...]
+>     
 >     # Change to yes to enable challenge-response passwords (beware issues with
 >     # some PAM modules and threads)
 >     ChallengeResponseAuthentication no
